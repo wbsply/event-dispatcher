@@ -1,0 +1,4 @@
+Psr\EventDispatcher\EventDispatcherInterface:
+  scope: singleton
+  factoryObjectName: WebSupply\EventDispatcher\EventDispatcher\EventDispatcherFactory
+  factoryMethodName: create

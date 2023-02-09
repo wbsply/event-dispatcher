@@ -1,0 +1,25 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "websupply/event-dispatcher",
+    "require": {
+        "neos/flow": "*",
+        "psr/event-dispatcher": "*",
+        "symfony/event-dispatcher": "^6.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSupply\\EventDispatcher\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WebSupply\\EventDispatcher\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebSupply.EventDispatcher"
+        }
+    }
+}
